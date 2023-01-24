@@ -1,3 +1,6 @@
+# Warning 
+**Do not use this branch ```catboii-patch``` this branch modified for  [https://lenp.pardesicat.xyz](https://lenp.pardesicat.xyz) this kept open for study purpose only**
+
 **Lenpaste** is a web service that allows you to share notes anonymously, an alternative to `pastebin.com`.
 
 
