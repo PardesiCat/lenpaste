@@ -1,0 +1,34 @@
+theme.Name.bn_IN = পারদেশীবিড়াল থিম 
+theme.Name.de    = pardesicat
+theme.Name.en    = pardesicat
+theme.Name.ru    = пардезикат
+
+font.Default   = sans-serif
+font.Monospace = monospace
+
+// Full theme list here:
+// https://pkg.go.dev/github.com/alecthomas/chroma/v2/styles#pkg-variables
+highlight.Theme = monokai
+
+color.Font             = #FFFFFF
+color.SVG              = white
+color.BackgroundBody   = #0a1170
+color.Header           = #570493
+color.HeaderFont       = #a1600b
+color.Article          = #154d93
+color.BackgroundBlack  = #000000
+color.FocusOutline     = #3DAEE9
+color.Element          = #666666
+
+color.Red  = #FF1F1F
+color.Grey = #888888
+
+color.Button           = #078587
+color.ButtonHover      = #999999
+color.ButtonFont       = #FFFFFF
+color.ButtonGreen      = #d53300
+color.ButtonGreenHover = #74D117
+color.ButtonGreenFont  = #FFFFFF
+
+color.InputHover       = #777777
+color.InputPlaceholder = #B9B9B9
