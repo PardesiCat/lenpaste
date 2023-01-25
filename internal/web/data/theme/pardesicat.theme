@@ -12,13 +12,13 @@ highlight.Theme = monokai
 
 color.Font             = #FFFFFF
 color.SVG              = white
-color.BackgroundBody   = #0a1170
+color.BackgroundBody   = #373636
 color.Header           = #570493
-color.HeaderFont       = #a1600b
+color.HeaderFont       = white
 color.Article          = #154d93
-color.BackgroundBlack  = #000000
+color.BackgroundBlack  = #082340
 color.FocusOutline     = #3DAEE9
-color.Element          = #666666
+color.Element          = #082340
 
 color.Red  = #FF1F1F
 color.Grey = #888888
