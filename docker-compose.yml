@@ -7,10 +7,19 @@ services:
     environment:
       - LENPASTE_DB_DRIVER=postgres
       - LENPASTE_DB_SOURCE=postgres://lenpaste:pass@postgres/lenpaste?sslmode=disable
+      - LENPASTE_UI_DEFAULT_THEME=pardesicat
+      - LENPASTE_ROBOTS_DISALLOW=false
+      - LENPASTE_BODY_MAX_LENGTH=-1
+      - LENPASTE_MAX_PASTE_LIFETIME=unlimited
+      - LENPASTE_ADMIN_NAME=Pardesi_Cat
+      - LENPASTE_ADMIN_MAIL=contact@pardesicat.xyz
+      - LENPASTE_NEW_PASTES_PER_5MIN=10
+      - LENPASTE_GET_PASTES_PER_5MIN=30
     volumes:
       - "${PWD}/data:/data"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
+      - /data/abouts
     ports:
       - "8000:80"
     depends_on:
